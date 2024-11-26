@@ -49,7 +49,7 @@ public class LoginActivity extends AppCompatActivity {
                 } else if (passwordEditText.getText().toString().length() >= passwordMinLength) {
                     Toast.makeText(getApplicationContext(),"password is not valid",Toast.LENGTH_LONG).show();
                 } else{
-                    Toast.makeText(getApplicationContext(),"Success",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Success !",Toast.LENGTH_LONG).show();
                 }
 
             }
